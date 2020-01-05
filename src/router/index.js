@@ -5,6 +5,7 @@ import About from '../components/About.vue'
 import EventMethod from '../views/EventMethod.vue'
 import Data from '../views/Data.vue'
 import Compute from '../views/Compute.vue'
+import Binding from '../views/Binding.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
         path: '/compute',
         name: 'compute',
         component: Compute
+    },
+    {
+        path: '/binding',
+        name: 'binding',
+        component: Binding
     },
 
 ]

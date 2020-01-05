@@ -13,6 +13,7 @@
 			<router-link to="/eventandmethod">Event and Method </router-link>
 			<router-link to="/data">Data</router-link>
 			<router-link to="/compute">Compute</router-link>
+			<router-link to="/binding">Binding</router-link>
 			<router-view></router-view>
 
 		</div>
