@@ -13,6 +13,7 @@
 		<ul>
 			<li v-for="(item, index) in course" :key="index">{{index + 1}}.{{item}}</li>
 		</ul>
+		<span class="title">555</span>
 	</div>
 </template>
 
@@ -52,9 +53,17 @@
 		color: red;
 		list-style-type: none;
 	}
+
 	ul {
 		text-align: left;
 		margin: 0;
 		padding: 0;
 	}
+
+	.title {
+		color: green;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
 </style>

@@ -7,17 +7,12 @@
 		<button @click="onClickAdd">Add</button>
 		<hr>
 
-		<!--	MVVM	-->
-		<h1>v-model</h1>
-		<input v-model="message" type="text" placeholder="Enter your message">
-		<div>{{message}}</div>
-		<button @click="onReset">Reset</button>
-		<hr>
 		<div>
 			<router-link to="/">Home </router-link>
 			<router-link to="/about">About </router-link>
 			<router-link to="/eventandmethod">Event and Method </router-link>
 			<router-link to="/data">Data</router-link>
+			<router-link to="/compute">Compute</router-link>
 			<router-view></router-view>
 
 		</div>
@@ -59,5 +54,6 @@
 
 	a {
 		text-decoration: none;
+		padding: 10px;
 	}
 </style>
