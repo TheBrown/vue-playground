@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../components/About.vue'
 import EventMethod from '../views/EventMethod.vue'
+import Data from '../views/Data.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
         path: '/eventandmethod',
         name: 'eventandmethod',
         component: EventMethod
+    },
+    {
+        path: '/data',
+        name: 'data',
+        component: Data
     },
 
 ]

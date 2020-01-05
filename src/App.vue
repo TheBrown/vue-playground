@@ -17,6 +17,7 @@
 			<router-link to="/">Home </router-link>
 			<router-link to="/about">About </router-link>
 			<router-link to="/eventandmethod">Event and Method </router-link>
+			<router-link to="/data">Data</router-link>
 			<router-view></router-view>
 
 		</div>
